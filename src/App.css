@@ -27,5 +27,6 @@
 
   @media (min-width:1025px) {
     margin-bottom: 1em;
+    gap: 3em;
   }
 }
