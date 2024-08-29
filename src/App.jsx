@@ -37,17 +37,17 @@ const authorList = [
 ]
 
 const publications = [
-  // {
-  //   title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
-  //   authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
-  //   venue: 'arXiv.org',
-  //   year: '2024',
-  //   paperLink: null,
-  //   demoLink: null,
-  //   projectLink: 'https://kirstenmaas.github.io/nerfca',
-  //   codeLink: 'https://github.com/kirstenmaas/NeRF-CA',
-  //   imageUrl: './nerf-ca.png',
-  // },
+  {
+    title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
+    authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
+    venue: 'arXiv.org',
+    year: '2024',
+    paperLink: null,
+    demoLink: null,
+    projectLink: 'https://kirstenmaas.github.io/nerfca',
+    codeLink: 'https://github.com/kirstenmaas/NeRF-CA',
+    imageUrl: './nerf-ca.png',
+  },
   {
     title: 'NeRF For 3D reconstruction From X-ray Angiography: Possibilities and Limitations',
     authors: [authorList[0], authorList[1], authorList[2], authorList[3], authorList[4]],

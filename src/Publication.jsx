@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaFile } from "react-icons/fa";
 import { TbDeviceDesktopAnalytics } from "react-icons/tb";
 
-
 export default function Publication(props) {
     return (
         <div className='publication'>
