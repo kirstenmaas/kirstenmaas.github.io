@@ -42,7 +42,7 @@ const publications = [
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
     venue: 'arXiv.org',
     year: '2024',
-    paperLink: null,
+    paperLink: 'https://arxiv.org/abs/2408.16355',
     demoLink: null,
     projectLink: 'https://kirstenmaas.github.io/nerfca',
     codeLink: 'https://github.com/kirstenmaas/NeRF-CA',
