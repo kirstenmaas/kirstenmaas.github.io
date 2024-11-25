@@ -70,7 +70,7 @@ function App() {
         <div style={{ display: 'flex', gap: '5vw', justifyContent: 'center', flexWrap: 'wrap' }}>
           <div style={{ textAlign: 'left', maxWidth: '50em', minWidth: '20em' }}>
             Welcome! My name is Kirsten Maas. 
-            I am a 3rd year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <a className='authorlink' href='https://research.tue.nl/en/persons/kirsten-wh-maas'>Eindhoven University of Technology</a> advised by <a href={authorList[3].link} className='authorlink'>Prof. Danny Ruijters</a>, <a className='authorlink' href={authorList[1].link}>Dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[4].link}>Prof. Anna Vilanova</a>. 
+            I am a 4th year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <a className='authorlink' href='https://research.tue.nl/en/persons/kirsten-wh-maas'>Eindhoven University of Technology</a> advised by <a href={authorList[3].link} className='authorlink'>Prof. Danny Ruijters</a>, <a className='authorlink' href={authorList[1].link}>Dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[4].link}>Prof. Anna Vilanova</a>. 
             The topic of my PhD is AI-driven 3D reconstruction within the context of X-ray coronary angiography. 
             This research is part of the <a className='authorlink' href='https://www.tue.nl/en/research/research-groups/eaisi/eaisi-business-operations/eindhoven-medtech-innovation-center/emtic-ai-lab'>e/MTIC collaboration</a> between Philips Healthcare, Catharina Hospital Eindhoven, and Eindhoven University of Technology.
             
