@@ -40,9 +40,10 @@ const publications = [
   {
     title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
-    venue: 'arXiv.org',
+    venue: 'Transactions on Visualization and Computer Graphics (TVCG)',
     year: '2024',
-    paperLink: 'https://arxiv.org/abs/2408.16355',
+    paperLink: 'https://www.computer.org/csdl/journal/tg/5555/01/11031197/27uvy04UuoU',
+    arxivLink: 'https://arxiv.org/abs/2408.16355',
     demoLink: null,
     projectLink: 'https://kirstenmaas.github.io/nerfca',
     codeLink: 'https://github.com/kirstenmaas/NeRF-CA',
@@ -70,8 +71,10 @@ function App() {
         <div style={{ display: 'flex', gap: '5vw', justifyContent: 'center', flexWrap: 'wrap' }}>
           <div style={{ textAlign: 'left', maxWidth: '50em', minWidth: '20em' }}>
             Welcome! My name is Kirsten Maas. 
-            I am a 4th year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <a className='authorlink' href='https://research.tue.nl/en/persons/kirsten-wh-maas'>Eindhoven University of Technology</a> advised by <a href={authorList[3].link} className='authorlink'>Prof. Danny Ruijters</a>, <a className='authorlink' href={authorList[1].link}>Dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[4].link}>Prof. Anna Vilanova</a>. 
-            The topic of my PhD is AI-driven 3D reconstruction within the context of X-ray coronary angiography. 
+            I am a 4th year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <space/>
+            <a className='authorlink' href='https://research.tue.nl/en/persons/kirsten-wh-maas'>Eindhoven University of Technology</a> advised by <space/>
+            <a href={authorList[4].link} className='authorlink'>Prof. Anna Vilanova</a>, <a className='authorlink' href={authorList[1].link}>Dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[3].link}>Prof. Danny Ruijters</a>. 
+            The topic of my PhD is implicit neural representations for the 4D reconstruction of X-ray coronary angiography data. 
             This research is part of the <a className='authorlink' href='https://www.tue.nl/en/research/research-groups/eaisi/eaisi-business-operations/eindhoven-medtech-innovation-center/emtic-ai-lab'>e/MTIC collaboration</a> between Philips Healthcare, Catharina Hospital Eindhoven, and Eindhoven University of Technology.
             
           </div>
@@ -96,6 +99,7 @@ function App() {
             paperLink={publication.paperLink}
             demoLink={publication.demoLink}
             projectLink={publication.projectLink}
+            arxivLink={publication.arxivLink}
             codeLink={publication.codeLink}
             imageUrl={publication.imageUrl}
           />
