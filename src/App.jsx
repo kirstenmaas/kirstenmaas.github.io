@@ -40,8 +40,8 @@ const publications = [
   {
     title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
-    venue: 'Transactions on Visualization and Computer Graphics (TVCG)',
-    year: '2024',
+    venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)',
+    year: '2025',
     paperLink: 'https://www.computer.org/csdl/journal/tg/5555/01/11031197/27uvy04UuoU',
     arxivLink: 'https://arxiv.org/abs/2408.16355',
     demoLink: null,
