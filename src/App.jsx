@@ -52,7 +52,7 @@ const publications = [
     imageUrl: './nert-ca.png',
   },
   {
-    title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
+    title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with Extremely Sparse-views',
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
     venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)',
     year: '2025',
