@@ -34,9 +34,23 @@ const authorList = [
     link: 'https://www.tue.nl/en/research/researchers/anna-vilanova/',
     is_me: false,
   },
+  {
+    name: 'Thiam-Wai Chua',
+    is_me: false,
+  }
 ]
 
 const publications = [
+  {
+    title: 'NerT-CA: Efficient Dynamic Reconstruction from Sparse-view X-ray Coronary Angiography',
+    authors: [authorList[0], authorList[3], authorList[1], authorList[4]],
+    venue: 'MICCAI Workshop on Reconstruction and Imaging Motion Estimation (RIME)',
+    year: '2025',
+    paperLink: 'https://arxiv.org/abs/2507.19328',
+    demoLink: null,
+    codeLink: 'https://github.com/kirstenmaas/NerT-CA',
+    imageUrl: './nert-ca.png',
+  },
   {
     title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with extremely sparse-views',
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
@@ -52,13 +66,23 @@ const publications = [
   {
     title: 'NeRF For 3D reconstruction From X-ray Angiography: Possibilities and Limitations',
     authors: [authorList[0], authorList[1], authorList[2], authorList[3], authorList[4]],
-    venue: 'VCBM: Eurographics Workshop on Visual Computing for Biology and Medicine',
+    venue: 'Eurographics Workshop on Visual Computing for Biology and Medicine (VCBM)',
     year: '2023',
     paperLink: 'https://diglib.eg.org/items/1d80a1ce-ab59-4718-afd0-bc54e053e7f6',
     demoLink: 'https://nerfforangiography.netlify.app/',
     projectLink: null,
     codeLink: null,
     imageUrl: './nerf3d.png',
+  },
+  {
+    title: 'NeRVis: Neural Radiance Field Model-Uncertainty Visualization',
+    authors: [authorList[0], authorList[5], authorList[3], authorList[1], authorList[4]],
+    venue: 'SSRN',
+    year: '2025',
+    paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5353524',
+    demoLink: null,
+    codeLink: 'https://github.com/kirstenmaas/NeRVis',
+    imageUrl: './nervis.png',
   },
 ]
 
@@ -71,10 +95,10 @@ function App() {
         <div style={{ display: 'flex', gap: '5vw', justifyContent: 'center', flexWrap: 'wrap' }}>
           <div style={{ textAlign: 'left', maxWidth: '50em', minWidth: '20em' }}>
             Welcome! My name is Kirsten Maas. 
-            I am a 4th year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <space/>
+            I am a final year PhD student in Computer Science at the <a href='https://vis.win.tue.nl/'>Visualization cluster</a> at <space/>
             <a className='authorlink' href='https://research.tue.nl/en/persons/kirsten-wh-maas'>Eindhoven University of Technology</a> advised by <space/>
-            <a href={authorList[4].link} className='authorlink'>Prof. Anna Vilanova</a>, <a className='authorlink' href={authorList[1].link}>Dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[3].link}>Prof. Danny Ruijters</a>. 
-            The topic of my PhD is implicit neural representations for the 4D reconstruction of X-ray coronary angiography data. 
+            <a href={authorList[4].link} className='authorlink'>prof. dr. Anna Vilanova</a>, <a className='authorlink' href={authorList[1].link}>dr. Nicola Pezzotti</a>, and <a className='authorlink' href={authorList[3].link}>prof. dr. Danny Ruijters</a>. 
+            The topic of my PhD is implicit neural representations for the 3D reconstruction of X-ray coronary angiography data. 
             This research is part of the <a className='authorlink' href='https://www.tue.nl/en/research/research-groups/eaisi/eaisi-business-operations/eindhoven-medtech-innovation-center/emtic-ai-lab'>e/MTIC collaboration</a> between Philips Healthcare, Catharina Hospital Eindhoven, and Eindhoven University of Technology.
             
           </div>
