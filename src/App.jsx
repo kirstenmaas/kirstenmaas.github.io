@@ -48,6 +48,7 @@ const publications = [
     year: '2025',
     paperLink: 'https://arxiv.org/abs/2507.19328',
     demoLink: null,
+    projectLink: 'https://kirstenmaas.github.io/nertca',
     codeLink: 'https://github.com/kirstenmaas/NerT-CA',
     imageUrl: './nert-ca.png',
   },
