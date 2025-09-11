@@ -69,7 +69,7 @@ const publications = [
     venue: 'Eurographics Workshop on Visual Computing for Biology and Medicine (VCBM)',
     year: '2023',
     paperLink: 'https://diglib.eg.org/items/1d80a1ce-ab59-4718-afd0-bc54e053e7f6',
-    demoLink: 'https://nerfforangiography.netlify.app/',
+    demoLink: null,
     projectLink: null,
     codeLink: null,
     imageUrl: './nerf3d.png',
