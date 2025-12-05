@@ -53,7 +53,7 @@ const publications = [
     imageUrl: './nert-ca.png',
   },
   {
-    title: 'NeRF-CA: Dynamic reconstruction of X-ray Coronary Angiography with Extremely Sparse-views',
+    title: 'NeRF-CA: Dynamic Reconstruction of X-ray Coronary Angiography with Extremely Sparse-Views',
     authors: [authorList[0], authorList[3], authorList[4], authorList[1]],
     venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)',
     year: '2025',
@@ -65,7 +65,7 @@ const publications = [
     imageUrl: './nerf-ca.png',
   },
   {
-    title: 'NeRF For 3D reconstruction From X-ray Angiography: Possibilities and Limitations',
+    title: 'NeRF for 3D Reconstruction from X-ray Angiography: Possibilities and Limitations',
     authors: [authorList[0], authorList[1], authorList[2], authorList[3], authorList[4]],
     venue: 'Eurographics Workshop on Visual Computing for Biology and Medicine (VCBM)',
     year: '2023',
@@ -78,9 +78,9 @@ const publications = [
   {
     title: 'NeRVis: Neural Radiance Field Model-Uncertainty Visualization',
     authors: [authorList[0], authorList[5], authorList[3], authorList[1], authorList[4]],
-    venue: 'SSRN',
+    venue: 'Computers & Graphics',
     year: '2025',
-    paperLink: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5353524',
+    paperLink: 'https://www.sciencedirect.com/science/article/pii/S0097849325003528?via%3Dihub',
     demoLink: null,
     codeLink: 'https://github.com/kirstenmaas/NeRVis',
     imageUrl: './nervis.png',
